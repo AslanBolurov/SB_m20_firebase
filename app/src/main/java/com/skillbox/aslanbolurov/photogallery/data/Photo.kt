@@ -1,0 +1,17 @@
+package com.skillbox.aslanbolurov.photogallery.data
+
+import androidx.room.ColumnInfo
+import androidx.room.Entity
+import androidx.room.PrimaryKey
+import java.util.*
+
+@Entity(tableName = "photo")
+data class Photo(
+    @PrimaryKey
+    @ColumnInfo(name="id")
+    val id:Int,
+    @ColumnInfo(name="path")
+    val path:String,
+    @ColumnInfo(name="date")
+    val date: String
+)

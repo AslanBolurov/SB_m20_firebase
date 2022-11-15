@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/FragmentPhotosList">
+    <fragment
+        android:id="@+id/FragmentPhotosList"
+        android:name="com.skillbox.aslanbolurov.photogallery.presentation.PhotosFragment"
+        android:label="Photos list"
+        tools:layout="@layout/fragment_photos">
+        <action
+            android:id="@+id/action_PhotosList_to_PhotoTaking"
+            app:destination="@id/TakingPhoto"/>
+        <action
+            android:id="@+id/action_PhotosList_to_GoogleMapsFragment"
+            app:destination="@id/GoogleMapsFragment"/>
+
+    </fragment>
+    <fragment
+        android:id="@+id/TakingPhoto"
+        android:name="com.skillbox.aslanbolurov.photogallery.presentation.TakingPhotoFragment"
+        android:label="Photo taking"
+        tools:layout="@layout/fragment_taking_photo">
+        <action
+            android:id="@+id/action_BackTo_PhotosList"
+            app:destination="@id/FragmentPhotosList"/>
+    </fragment>
+    <fragment
+        android:id="@+id/GoogleMapsFragment"
+        android:name="com.skillbox.aslanbolurov.photogallery.presentation.GoogleMapsFragment"
+        android:label="Google map"
+        tools:layout="@layout/fragment_google_maps">
+        <action
+            android:id="@+id/action_GoogleMaps_BackTo_PhotosList"
+            app:destination="@id/FragmentPhotosList"/>
+    </fragment>
+
+
+</navigation>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "787192166092",
+    "project_id": "fir-for-photo-gallery",
+    "storage_bucket": "fir-for-photo-gallery.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:787192166092:android:5e23a1d83d719f860d3469",
+        "android_client_info": {
+          "package_name": "com.skillbox.aslanbolurov.photogallery"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "787192166092-7bsnut3j65fnv9mr12n5k5soekvuorvs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBpQBvski2oI6Xmlk48ZzBRIsLtNWKBrI4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "787192166092-7bsnut3j65fnv9mr12n5k5soekvuorvs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

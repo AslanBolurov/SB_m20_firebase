@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">PhotoGallery</string>
+    <string name="take_photo_button">Take photo</string>
+    <string name="google_maps_button">Google Maps</string>
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">YOUR_KEY_HERE</string>
+    <string name="title_activity_maps">MapsActivity</string>
+</resources>
